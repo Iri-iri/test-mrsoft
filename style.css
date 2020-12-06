@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 3rem;
+}
+
+.label {
+  display: block;
+  text-align: center;
+}
+
+.data-field {
+  height: 30px;
+  width: 50%;
+  max-width: 400px;
+  margin: 2rem auto 1rem;
+  padding: 1.2rem;
+  display: block;
+  border: 1px solid #000000;
+  outline: none;
+  font-size: 1.2em;
+}
+
+.text-input {
+  font-size: 1.3em;
+}
+
+.btn-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-sort {
+  height: 40px;
+  margin: 0 20px;
+  padding: 10px;
+  border-radius: 0.8rem;
+  border: #05040a;
+  border-bottom: 3px solid #DF8E00;
+  color: #313131;
+  outline: none;
+}
+
+.result-area {
+  padding: 2rem;
+  color: #222225;
+}
